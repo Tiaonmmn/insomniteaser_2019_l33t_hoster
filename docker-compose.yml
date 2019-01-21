@@ -1,0 +1,6 @@
+version: "2"
+services:
+  l33t-hoster:
+    build: .
+    ports:
+      - "127.0.0.1:3095:80"
